@@ -1,1 +1,2 @@
-hello
+initiate npm
+install prompt-sync
