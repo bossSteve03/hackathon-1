@@ -11,42 +11,42 @@ let isOver = false;
 function computerInputFunction() {
     let wrongChoice = true
 
-while(wrongChoice = true){
-    const computerInput = () => {
-    let c = Math.floor(Math.random()*9)+1
-    return c
-}
-switch(computerInput()){
-    case '1':
-        tl === '-' ? ((gameboard[0][0] = 'O'), wrongChoice = false) : wrongChoice = true;
-        break;
-    case '2':
-        t === '-' ? ((gameboard[0][1] = 'O'), wrongChoice = false) : wrongChoice = true
-        break;
-    case '3':
-        tr === '-' ? ((gameboard[0][2] = 'O'), wrongChoice = false) : wrongChoice = true
-        break;
-    case '4':
-        ml === '-' ? ((gameboard[1][0] = 'O'), wrongChoice = false) : wrongChoice = true
-        break;
-    case '5':
-        m === '-' ? ((gameboard[1][1] = 'O'), wrongChoice = false) : wrongChoice = true
-        break;
-    case '6':
-        mr === '-' ? ((gameboard[1][2] = 'O'), wrongChoice = false) : wrongChoice = true
-        break;
-    case '7':
-        bl === '-' ? ((gameboard[2][0] = 'O'), wrongChoice = false) : wrongChoice = true
-        break;
-    case '8':
-        b === '-' ? ((gameboard[2][1] = 'O'), wrongChoice = false) : wrongChoice = true
-        break;
-    case '9':
-        br === '-' ? ((gameboard[2][2] = 'O'), wrongChoice = false) : wrongChoice = true
-        break;
-    }
+    while(wrongChoice = true){
+        const computerInput = () => {
+        let c = Math.floor(Math.random()*9)+1
+        return c
+        }
+        switch(computerInput()){
+            case '1':
+                tl === '-' ? ((gameboard[0][0] = 'O'), wrongChoice = false) : wrongChoice = true;
+                break;
+            case '2':
+                t === '-' ? ((gameboard[0][1] = 'O'), wrongChoice = false) : wrongChoice = true
+                break;
+            case '3':
+                tr === '-' ? ((gameboard[0][2] = 'O'), wrongChoice = false) : wrongChoice = true
+                break;
+            case '4':
+                ml === '-' ? ((gameboard[1][0] = 'O'), wrongChoice = false) : wrongChoice = true
+                break;
+            case '5':
+                m === '-' ? ((gameboard[1][1] = 'O'), wrongChoice = false) : wrongChoice = true
+                break;
+            case '6':
+                mr === '-' ? ((gameboard[1][2] = 'O'), wrongChoice = false) : wrongChoice = true
+                break;
+            case '7':
+                bl === '-' ? ((gameboard[2][0] = 'O'), wrongChoice = false) : wrongChoice = true
+                break;
+            case '8':
+                b === '-' ? ((gameboard[2][1] = 'O'), wrongChoice = false) : wrongChoice = true
+                break;
+            case '9':
+                br === '-' ? ((gameboard[2][2] = 'O'), wrongChoice = false) : wrongChoice = true
+                break;
+        }
     
-}
+    }
 }
 
 // Create the slots
